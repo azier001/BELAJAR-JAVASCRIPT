@@ -51,4 +51,3 @@ console.log(Math.trunc(4.99999)); // 4
 ```javascript
 console.log(Math.round(Math.random() * 100)); // Angka acak antara 0 - 100
 ```
-
