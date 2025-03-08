@@ -15,12 +15,12 @@ console.log(Math.E);  // 2.718281828459045
 ## Metode Math
 
 ### Operasi Matematika
-- **Math.abs(x)**: Mengembalikan nilai absolut dari x.
-- **Math.pow(x, y)**: Mengembalikan nilai x pangkat y.
-- **Math.sqrt(x)**: Mengembalikan akar kuadrat dari x.
-- **Math.cbrt(x)**: Mengembalikan akar kubik dari x.
-- **Math.max(a, b, c, ...)**: Mengembalikan nilai terbesar dari sekumpulan angka.
-- **Math.min(a, b, c, ...)**: Mengembalikan nilai terkecil dari sekumpulan angka.
+-   **Math.abs(x)** → _abs dari kata absolute_, mengembalikan nilai absolut (selalu positif) dari `x`.
+-   **Math.pow(x, y)** → _pow dari kata power_, menghitung `x` pangkat `y` (x^y).
+-   **Math.sqrt(x)** → _sqrt dari square root_, menghitung akar kuadrat dari `x`.
+-   **Math.cbrt(x)** → _cbrt dari cubic root_, menghitung akar kubik dari `x`.
+-   **Math.max(a, b, ...)** → _max dari maximum_, mencari nilai terbesar dari sekumpulan angka.
+-   **Math.min(a, b, ...)** → _min dari minimum_, mencari nilai terkecil dari sekumpulan angka.
 
 ```javascript
 console.log(Math.abs(-7));      // 7
@@ -32,10 +32,10 @@ console.log(Math.min(1, 13, 89, 2, 75)); // 1
 ```
 
 ### Pembulatan Angka
-- **Math.round(x)**: Membulatkan angka ke nilai terdekat.
-- **Math.ceil(x)**: Membulatkan angka ke atas (ke nilai terbesar berikutnya).
-- **Math.floor(x)**: Membulatkan angka ke bawah (ke nilai terkecil berikutnya).
-- **Math.trunc(x)**: Menghapus bagian desimal dari angka.
+-   **Math.round(x)** → _round dari kata rounding_, membulatkan ke nilai terdekat.
+-   **Math.ceil(x)** → _ceil dari ceiling (langit-langit)_, membulatkan ke atas (ke angka lebih besar).
+-   **Math.floor(x)** → _floor dari flooring (lantai)_, membulatkan ke bawah (ke angka lebih kecil).
+-   **Math.trunc(x)** → _trunc dari truncation_, menghapus bagian desimal tanpa pembulatan.
 
 ```javascript
 console.log(Math.round(3.6));   // 4
