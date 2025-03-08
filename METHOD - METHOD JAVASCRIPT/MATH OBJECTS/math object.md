@@ -38,7 +38,8 @@ console.log(Math.min(1, 13, 89, 2, 75)); // 1
 -   **Math.trunc(x)** → _trunc dari truncation_, menghapus bagian desimal tanpa pembulatan.
 
 ```javascript
-console.log(Math.round(3.6));   // 4
+console.log(Math.round(3.6)); // output : 4, dibulatkan keatas (3.5 - 3.99)
+console.log(Math.round(3.4)); // output : 3, dibulatkan kebawah (3.01 - 3.49)
 console.log(Math.ceil(4.0000001)); // 5
 console.log(Math.floor(3.9));   // 3
 console.log(Math.trunc(4.99999)); // 4
