@@ -60,6 +60,40 @@ console.log(hewan); // Output: ["kucing", "anjing", "kelinci"]
 
 > **Catatan:** Meskipun `const` digunakan, kita masih bisa mengubah isi array, tetapi tidak bisa mengganti referensi array itu sendiri.
 
+## Bagaimana `push()` Mengembalikan Panjang Array?
+
+Metode `push()` mengembalikan panjang baru dari array setelah elemen baru ditambahkan.
+
+Misalnya:
+
+```javascript
+let angka = [1, 2, 3]; 
+let panjangBaru = angka.push(4, 5, 6);
+console.log(angka); // Output: [1, 2, 3, 4, 5, 6]
+console.log(panjangBaru); // Output: 6
+```
+
+### Penjelasan:
+1. **Array awal** adalah `[1, 2, 3]` dengan panjang **3**.
+2. **Metode `push(4, 5, 6)`** menambahkan tiga elemen ke akhir array, sehingga menjadi `[1, 2, 3, 4, 5, 6]`.
+3. **Panjang array setelahnya adalah 6**, dan inilah yang dikembalikan oleh `push()`.
+
+Jika hanya menambahkan **satu elemen**:
+
+```javascript
+let angka = [1, 2, 3];
+let panjangBaru = angka.push(4);
+console.log(panjangBaru); // Output: 4
+```
+
+Jika **tidak menambahkan elemen sama sekali**:
+
+```javascript
+let angka = [1, 2, 3];
+let panjangBaru = angka.push();
+console.log(panjangBaru); // Output: 3
+```
+
 ## Perbedaan dengan Metode Lain
 
 | Metode       | Deskripsi |
