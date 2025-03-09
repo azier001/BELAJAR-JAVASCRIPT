@@ -40,8 +40,13 @@ console.log(fruits); // Output: [ 'orange', 'banana', 'mango', 'strawberry' ]
 ```javascript
 let numbers = [1, 2, 3];
 
-numbers.push(4); // Menambah elemen di akhir array
-console.log(numbers); // Output: [ 1, 2, 3, 4 ]
+// Metode `push()` mengembalikan nilai berupa **angka** yang menunjukkan panjang array setelah elemen baru ditambahkan.
+
+let pushNumber =  numbers.push(4); // menambah elemen diakhir array
+let pushNumber2 =  numbers.push(5, 6); // menambah elemen diakhir array
+console.log(pushNumber); // output : 4 -> menambahkan 1 elemen, jadi panjang array menjadi 4
+console.log(pushNumber2); // output : 6-> menambahkan 2 elemen, jadi panjang array menjadi 6
+console.log(numbers); // output : [ 1, 2, 3, 4 ]
 
 numbers.pop(); // Menghapus elemen terakhir array
 console.log(numbers); // Output: [ 1, 2, 3 ]
