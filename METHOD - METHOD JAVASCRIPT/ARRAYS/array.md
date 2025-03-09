@@ -39,11 +39,12 @@ console.log(fruits); // Output: [ 'orange', 'banana', 'mango', 'strawberry' ]
 ## Manipulasi Array
 ```javascript
 let numbers = [1, 2, 3];
+let numbers2 = [1, 2, 3];
 
 // Metode `push()` mengembalikan nilai berupa **angka** yang menunjukkan panjang array setelah elemen baru ditambahkan.
 
-let pushNumber =  numbers.push(4); // menambah elemen diakhir array
-let pushNumber2 =  numbers.push(5, 6); // menambah elemen diakhir array
+let pushNumber =  numbers2.push(4); // menambah elemen diakhir array
+let pushNumber2 =  numbers2.push(5, 6); // menambah elemen diakhir array
 console.log(pushNumber); // output : 4 -> menambahkan 1 elemen, jadi panjang array menjadi 4
 console.log(pushNumber2); // output : 6-> menambahkan 2 elemen, jadi panjang array menjadi 6
 console.log(numbers); // output : [ 1, 2, 3, 4 ]
